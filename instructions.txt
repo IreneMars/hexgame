@@ -1,0 +1,16 @@
+install:
+
+- pip3 install pygame
+- pip3 install numpy
+- cd to the folder (a valid one) in which you have the .whl archive. 
+  pip install Shapely-1.6.4.post2-cp37-cp37m-win32.whl (since I've got Python3.7(32-bits))
+  In this link below there are other options for your particular version of Python:
+  https://www.lfd.uci.edu/~gohlke/pythonlibs/#shapely
+  Shapely works in Sublime, but not in PyCharm for some reason, and I don't know in which 
+  other IDE's it could work. You can try main_hex.py since it does not need Shapely modules.
+
+You can try the game executing any of the "mains.py" archives of the folder.
+	- main_hex.py is between to human beings
+	- main_hex_IA.py is between the computer and a human being
+	- main_hex_IA_no_graphics.py is the same as main_hex_IA.py 
+	  but with no graphic interface
